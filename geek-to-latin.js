@@ -52,7 +52,7 @@ function convert(){
     let search24 = 'ψ'
     let replaceWith24 = 'ps'
     let search25 = 'ω'
-    let replaceWith25 = '0'
+    let replaceWith25 = 'o'
     
       
       if(text.includes('α')){
