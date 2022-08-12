@@ -1,0 +1,11 @@
+{
+  "name": "greek-to-latin",
+  "version": "1.0.0",
+  "description": "greek to latin converter",
+  "main": "greek-to-latin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach721",
+  "license": "ISC"
+}
