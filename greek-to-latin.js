@@ -133,5 +133,4 @@ function convert(text){
       
        console.log(text)
     }
-    convert('Γειά σου Κόσμε')
-    
+     module.exports = convert
