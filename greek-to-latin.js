@@ -1,7 +1,6 @@
-function convert(){
+function convert(text){
 
     
-    let text = 'γduckduckαααβγ'
   
     let search = 'α'
     let replaceWith = 'a'
@@ -134,5 +133,5 @@ function convert(){
       
        console.log(text)
     }
-    convert()
+    convert('Γειά σου Κόσμε')
     
