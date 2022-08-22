@@ -1,3 +1,11 @@
+/*
+ * Javascript Greek to Latin converter. 
+ * @author: Zakarias.
+ * This is a free software you can download it and 
+ * modyfing it according to your own preferences.
+  */
+
+
 function convert(text){
 
     
@@ -268,5 +276,5 @@ function convert(text){
       
        console.log(text)
     }
-    convert('το σπίτι μου είναι καλύτερο από το δικό σου')
+    convert('Γειά σου Κόσμε. Αυτό είναι ένα σενάριο Javascript')
     
