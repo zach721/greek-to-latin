@@ -3,6 +3,7 @@
  * @author: Zakarias.
  * This is a free software you can download it and 
  * modyfing it according to your own preferences.
+ * You can use this single script in your own projects.
   */
 
 
@@ -83,7 +84,7 @@ function convert(text){
     let search9_ = 'Ι'
     let replaceWith9_ = 'i'
     let search10_ = 'Κ'
-    let replaceWith10_ = 'k'
+  let replaceWith10_ = 'k'
     let search11_ = 'Λ'
     let replaceWith11_ = 'l'
     let search12_ = 'Μ'
