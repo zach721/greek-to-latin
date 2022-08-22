@@ -1,0 +1,21 @@
+#greekconvert{
+  color: aliceblue;
+  font-family: monospace;
+}
+#text{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#input{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -100px;
+  width: 30%;
+  height: 7%;
+  font-size: 100%;
+}
