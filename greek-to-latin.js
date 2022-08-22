@@ -1,7 +1,6 @@
 function convert(text){
 
     
-  
     let search = 'α'
     let replaceWith = 'a'
     let search2 = 'β'
@@ -52,7 +51,143 @@ function convert(text){
     let replaceWith24 = 'ps'
     let search25 = 'ω'
     let replaceWith25 = 'o'
+
+
+    //new line
+
+
+  let search_ = 'Α'
+    let replaceWith_ = 'a'
+    let search2_ = 'Β'
+    let replaceWith2_ = 'b'
+    let search3_ = 'Γ'
+    let replaceWith3_ = 'g'
+    let search4_ = 'Δ'
+    let replaceWith4_ = 'd'
+    let search5_ = 'Ε'
+    let replaceWith5_ = 'e'
+    let search6_ = 'Ζ'
+    let replaceWith6_ = 'z'
+    let search7_ = 'Η'
+    let replaceWith7_ = 'e'
+    let search8_ = 'Θ'
+    let replaceWith8_ = 'th'
+    let search9_ = 'Ι'
+    let replaceWith9_ = 'i'
+    let search10_ = 'Κ'
+    let replaceWith10_ = 'k'
+    let search11_ = 'Λ'
+    let replaceWith11_ = 'l'
+    let search12_ = 'Μ'
+    let replaceWith12_ = 'm'
+    let search13_ = 'Ν'
+    let replaceWith13_ = 'n'
+    let search14_ = 'Ξ'
+    let replaceWith14_ = 'x'
+    let search15_ = 'Ο'
+    let replaceWith15_ = 'o'
+    let search16_ = 'Π'
+    let replaceWith16_ = 'p'
+    let search17_ = 'Ρ'
+    let replaceWith17_ = 'r'
+    let search18_ = 'Σ'
+    let replaceWith18_ = 's'
+    let search19_ = 'Σ'
+    let replaceWith19_ = 's'
+    let search20_ = 'Τ'
+    let replaceWith20_ = 't'
+    let search21_ = 'Υ'
+    let replaceWith21_ = 'y'
+    let search22_ = 'Φ'
+    let replaceWith22_ = 'ph'
+    let search23_ = 'Χ'
+    let replaceWith23_ = 'ch'
+    let search24_ = 'Ψ'
+    let replaceWith24_ = 'ps'
+    let search25_ = 'Ω'
+    let replaceWith25_ = 'o'
+   
+
+
+      
+      if(text.includes('Α')){
+        text = text.split(search_).join(replaceWith_)
+      }
+      if(text.includes('Β')){
+        text = text.split(search2_).join(replaceWith2_)
+      }
+      if(text.includes('Γ')){
+        text = text.split(search3_).join(replaceWith3_)
+      }
+      if(text.includes('Δ')){
+        text = text.split(search4_).join(replaceWith4_)
+      }
+      if(text.includes('Ε')){
+        text = text.split(search5_).join(replaceWith5_)
+      }
+      if(text.includes('Ζ')){
+        text = text.split(search6_).join(replaceWith6_)
+      }
+      if(text.includes('Η')){
+        text = text.split(search7_).join(replaceWith7_)
+      }
+      if(text.includes('Θ')){
+        text = text.split(search8_).join(replaceWith8_)
+      }
+      if(text.includes('Ι')){
+        text = text.split(search9_).join(replaceWith9_)
+      }
+      if(text.includes('Κ')){
+        text = text.split(search10_).join(replaceWith10_)
+      }
+      if(text.includes('Λ')){
+        text = text.split(search11_).join(replaceWith11_)
+      }
+      if(text.includes('Μ')){
+        text = text.split(search12_).join(replaceWith12_)
+      }
+      if(text.includes('Ν')){
+        text = text.split(search13_).join(replaceWith13_)
+      }
+      if(text.includes('Ξ')){
+        text = text.split(search14_).join(replaceWith14_)
+      }
+      if(text.includes('Ο')){
+        text = text.split(search15_).join(replaceWith15_)
+      }
+      if(text.includes('Π')){
+        text = text.split(search16_).join(replaceWith16_)
+      }
+      if(text.includes('Ρ')){
+        text = text.split(search17_).join(replaceWith17_)
+      }
+      if(text.includes('Σ')){
+        text = text.split(search18_).join(replaceWith18_)
+      }
+      if(text.includes('Σ')){
+        text = text.split(search19_).join(replaceWith19_)
+      }
+      if(text.includes('Τ')){
+        text = text.split(search20_).join(replaceWith20_)
+      }
+      if(text.includes('Υ')){
+        text = text.split(search21_).join(replaceWith21_)
+      }
+      if(text.includes('Φ')){
+        text = text.split(search22_).join(replaceWith22_)
+      }
+      if(text.includes('Χ')){
+        text = text.split(search23_).join(replaceWith23_)
+      }
+      if(text.includes('Ψ')){
+        text = text.split(search24_).join(replaceWith24_)
+      }
+      if(text.includes('Ω')){
+        text = text.split(search25_).join(replaceWith25_)
+      }
+      
     
+    //new line
       
       if(text.includes('α')){
         text = text.split(search).join(replaceWith)
@@ -133,4 +268,5 @@ function convert(text){
       
        console.log(text)
     }
-     module.exports = convert
+    convert('το σπίτι μου είναι καλύτερο από το δικό σου')
+    
